@@ -8,6 +8,8 @@ use Symfony\Component\Console\Input\InputOption;
 class DotenvBackupCommand extends Command
 {
 
+    use \Jackiedo\DotenvEditor\Console\Commands\enhanceCommand;
+
     /**
      * The console command name.
      *

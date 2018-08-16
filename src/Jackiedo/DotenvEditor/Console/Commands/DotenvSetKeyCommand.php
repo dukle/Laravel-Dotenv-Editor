@@ -9,6 +9,7 @@ use Symfony\Component\Console\Input\InputOption;
 class DotenvSetKeyCommand extends Command
 {
     use ConfirmableTrait;
+    use \Jackiedo\DotenvEditor\Console\Commands\enhanceCommand;
 
     /**
      * The console command name.

@@ -9,6 +9,7 @@ use Symfony\Component\Console\Input\InputOption;
 class DotenvRestoreCommand extends Command
 {
     use ConfirmableTrait;
+    use \Jackiedo\DotenvEditor\Console\Commands\enhanceCommand;
 
     /**
      * The name and signature of the console command.

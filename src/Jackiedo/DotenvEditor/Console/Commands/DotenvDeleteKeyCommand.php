@@ -9,6 +9,8 @@ use Symfony\Component\Console\Input\InputOption;
 class DotenvDeleteKeyCommand extends Command
 {
     use ConfirmableTrait;
+    use \Jackiedo\DotenvEditor\Console\Commands\enhanceCommand;
+
 
     /**
      * The console command name.

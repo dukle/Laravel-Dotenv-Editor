@@ -7,6 +7,7 @@ use Symfony\Component\Console\Input\InputOption;
 
 class DotenvGetKeysCommand extends Command
 {
+    use \Jackiedo\DotenvEditor\Console\Commands\enhanceCommand;
 
     /**
      * The console command name.
